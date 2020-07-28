@@ -13,42 +13,37 @@ knitr::opts_chunk$set(
 )
 ```
 
-# stockscreener
+# evInvestment
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of stockscreener is to ...
+The goal of evInvestment (Electric Vehicle but you can view any publicly traded company) is to take a quick glance of publicly traded companies key metrics in the following areas:
+
+1. Price History
+2. Distribution of Price
+3. Trade Volume History
+4. Price vs. Volume
 
 ## Installation
 
-You can install the released version of stockscreener from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of stockscreener from [github repo](https://github.com/ranalytica/EV_Players) with:
 
 ``` r
-install.packages("stockscreener")
+library(devtools)
+devtools::install_github("ranalytica/simple-stock-metric")
 ```
 
-## Example
+## Run the package
 
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
+``` r
 library(stockscreener)
-## basic example code
+run_app()
 ```
+## Acknowledgments
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+This package is written using **[ThinkR's Golem framework](https://github.com/ThinkR-open/golem)** together with several dependecies listed in the **[DESCRIPTION](https://github.com/ranalytica/EV_Players/blob/master/DESCRIPTION)** to see all dependencies contained in the evInvestment. 
 
-```{r cars}
-summary(cars)
-```
+![Shiny Site](./shiny.png) [view website](https://ranalytica.shinyapps.io/simple_stock_metric/){target="_blank"} 
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!

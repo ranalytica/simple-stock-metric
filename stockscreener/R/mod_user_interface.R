@@ -38,10 +38,14 @@ mod_user_interface_ui <- function(id){
       
       dashboardBody(
         
-      box(title = " Price History", dygraphOutput(ns("HistPrice"), height = 250)),
-      box(title = "Stock Comparison", dygraphOutput(ns("Compare"), height = 250)),
-      box(title = "Price Distribution", plotlyOutput(ns("Distribution"), height = 250)),
-      box(title = "Beta", plotlyOutput(ns("Beta"), height = 250)),
+      box(title = " Price History", 
+          dygraphOutput(ns("HistPrice"), height = 250)),
+      box(title = "Stock Comparison", 
+          dygraphOutput(ns("Compare"), height = 250)),
+      box(title = "Price Distribution", 
+          plotlyOutput(ns("Distribution"), height = 250)),
+      box(title = "Beta", 
+          plotlyOutput(ns("Beta"), height = 250)),
     
      
         
