@@ -25,7 +25,7 @@ repo](https://github.com/ranalytica/EV_Players) with:
 
 ``` r
 library(devtools)
-devtools::install_github("ranalytica/simple-stock-metric")
+devtools::install_github("ranalytica/simple-stock-metric/stockscreener/")
 ```
 
 ## Run the package

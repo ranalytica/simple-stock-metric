@@ -32,7 +32,7 @@ You can install the released version of stockscreener from [github repo](https:/
 
 ``` r
 library(devtools)
-devtools::install_github("ranalytica/simple-stock-metric")
+devtools::install_github("ranalytica/simple-stock-metric/stockscreener/")
 ```
 
 ## Run the package
