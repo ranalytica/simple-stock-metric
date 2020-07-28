@@ -1,0 +1,12 @@
+name: simple_stock_metric
+title: simple_stock_metric
+username:
+account: ranalytica
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2586917
+bundleId: 3447661
+url: https://ranalytica.shinyapps.io/simple_stock_metric/
+when: 1595970531.71492
+asMultiple: FALSE
+asStatic: FALSE

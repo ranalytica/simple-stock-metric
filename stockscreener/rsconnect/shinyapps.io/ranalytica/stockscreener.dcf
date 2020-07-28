@@ -1,0 +1,10 @@
+name: stockscreener
+title:
+username:
+account: ranalytica
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2586841
+bundleId: 3407225
+url: https://ranalytica.shinyapps.io/stockscreener/
+when: 1595094249.85799

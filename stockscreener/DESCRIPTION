@@ -1,0 +1,23 @@
+Package: stockscreener
+Title: Simple_Stock_Metrics
+Version: 0.0.0.9000
+Authors@R: person('Richard', 'Nacianceno', email = 'ranalyticas@gmail.com', role = c('cre', 'aut'))
+Description: To provide simple stock metrics.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    tidyquant,
+    ggplot2,
+    dplyr,
+    DT,
+    plotly,
+    shinydashboard,
+    pkgload,
+    dygraphs,
+    timetk,
+    glue
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
